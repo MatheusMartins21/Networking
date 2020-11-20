@@ -8,7 +8,7 @@ A página foi desenvolvida apenas para a versão desktop (1440px o máximo).
 
 Em breve atualizarei para 4k e Mobile ;D
 
-![Landing Page]('https://prnt.sc/vmvc7h")
+![Landing Page](https://i.imgur.com/jsqdEKQ.png)
 
 ## Avisos
 
