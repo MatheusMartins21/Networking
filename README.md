@@ -4,6 +4,10 @@ Lading page de uma plataforma fictícia para o desafio da expansion week (https:
 
 Para o começo do projeto, desenvolvi o layout utilizando o site Figma (https://www.figma.com/file/KfTbv4OWfvSi2Zv35MnTAu/Networking-Expansion-Week?node-id=0%3A1).
 
+A página foi desenvolvida apenas para a versão desktop (1440px o máximo).
+
+Em breve atualizarei para 4k e Mobile ;D
+
 ## Avisos
 
 Antes de utilizar o projeto, execute o comando "yarn" para instalar as dependências.
