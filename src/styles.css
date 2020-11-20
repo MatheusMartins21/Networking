@@ -1,5 +1,148 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Sen', sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header {
+  height: 10%;
+  padding: 0 2% 5% 2%;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title, .register {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Sansita', sans-serif;
+}
+
+.register {
+  font-size: 50%;
+}
+
+.divButton {
+  display: flex;
+  align-items: center;
+}
+
+.buttonLogin {
+  background-color: #3BB2FF;
+  border-radius: 15px;
+  width: 204px;
+  height: 39px;
+  border-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-weight: bold;
+}
+
+.buttonLogin:hover, .buttonLogin:hover > * {
+  background-color: #2cabff;
+  cursor: pointer;
+}
+
+.content {
+  height: 85%;
+  padding: 0 2% 0 2%;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentTextArea {
+  display: flex;
+  flex-direction: column;
+
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 300%;
+  margin-bottom: -8%;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 200%;
+  margin-bottom: -5%;
+}
+
+.h3 {
+  font-size: 140%;
+}
+
+.text {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+}
+
+.buttonContent {
+  background-color: #3BB2FF;
+  border-radius: 15px;
+  width: 250px;
+  height: 50px;
+  border-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-weight: bold;
+}
+
+.buttonContent:hover, .buttonContent:hover > * {
+  background-color: #2cabff;
+  cursor: pointer;
+}
+
+.buttonContentName {
+  font-size: 150%;
+}
+
+.contentImage {
+  width: 50%;
+}
+
+.hashtag {
+  color: rgba(0, 0, 0, 0.555);
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+
+.footer {
+  position: fixed;
+  left: 2%;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
 }
